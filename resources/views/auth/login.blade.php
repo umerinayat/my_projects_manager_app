@@ -60,7 +60,7 @@
 
                         <div class="form-group text-center mt-5">
                             
-                            <p style="color:white;font-size:18px;"> Don't have an account? </p>
+                           
                              
                         </div>
 
