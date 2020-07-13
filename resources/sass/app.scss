@@ -1,0 +1,74 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+
+.login-bg {
+    background-color: #9399A6;
+}
+
+ #ls-btn:hover {
+    background-color: #2F3947;
+  
+}
+
+#ls-btn {
+    background-color: #3E4652;
+    color:white;
+}
+
+.footer {
+    width: 100%;
+    height: 140px;
+    border-bottom: 1px solid #3E4652;
+    background: #3E4652;
+}
+
+
+
+ul.side-nav {
+    padding:0;
+    margin:0;
+    list-style: none;
+    background: #535B67;
+    color:#BEBEBE;
+}
+
+.side-nav li a {
+    color: #BEBEBE;
+    text-decoration: none;
+}
+
+.side-nav li a:hover {
+    color:white;
+}
+
+.dot {
+    height: 50px;
+    width: 50px;
+    background-color: #9399A6;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+.new-client-btn {
+    
+    color: white;
+    background: #535B67;
+    border-color: #9399A6;
+}
+
+.new-client-btn:hover {
+   background: #3E4652;
+   color: white !important;
+}
