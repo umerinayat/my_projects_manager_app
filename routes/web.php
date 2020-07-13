@@ -13,6 +13,6 @@ Route::get('/', function () {
 
 });
 
-Auth::routes(['verify' => true]);
+Auth::routes(['verify' => true, 'register' => false]);
 Route::get('/home', 'HomeController@index')->name('home')->middleware('verified');
 Route::get('/{any?}', 'HomeController@index')->where( 'any', '.*' )->middleware('verified');
